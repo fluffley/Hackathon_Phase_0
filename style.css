@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background: url(https://scitechdaily.com/images/Universe-Astronomy-Art-Concept.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.container {
+    max-width: 440px;
+    background-color: #151515;
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+}
+
+#contactList {
+    padding: 12px;
+}
+
+.contact {
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    border: 1px solid wheat;
+    margin-bottom: 8px;
+    color: wheat;
+}
+
+
+#addContactForm {
+    position: fixed;
+    bottom: 0;
+    background-color: transparent;
+    border: none;
+
+}
+
+#addContactForm i {
+    font-size: 50px;
+    color: wheat;
+}
